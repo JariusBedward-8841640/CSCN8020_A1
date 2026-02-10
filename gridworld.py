@@ -4,8 +4,7 @@ import numpy as np
 class GridWorld():
     def __init__(self, env_size):
         self.env_size = env_size
-        # TODO: Change the location of the terminal state and check how the optimal policy changes
-        # TODO: Add more than one terminal state (requires more changes in the code)
+
         self.terminal_state = (4, 4)
 
         # Define the transition probabilities and rewards
